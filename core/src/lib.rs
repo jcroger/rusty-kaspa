@@ -1,5 +1,6 @@
 extern crate self as kaspa_core;
 
+pub mod arc_any;
 pub mod assert;
 pub mod console;
 pub mod kaspad_env;

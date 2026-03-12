@@ -2149,7 +2149,7 @@ dependencies = [
  "delegate-display",
  "fancy_constructor",
  "js-sys",
- "uuid 1.18.1",
+ "uuid",
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
@@ -2196,29 +2196,6 @@ dependencies = [
  "js-sys",
  "wasm-bindgen",
  "web-sys",
-]
-
-[[package]]
-name = "intertrait"
-version = "0.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f00fc6ef7d878dfcf59d9e556ef1b368d7f55b9da5813ed481a3573eef485a01"
-dependencies = [
- "intertrait-macros",
- "linkme",
- "once_cell",
-]
-
-[[package]]
-name = "intertrait-macros"
-version = "0.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4d56984da2d4c9d6d7de8463892e65a9354f4238f641c246fe99176150e97bb8"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn 1.0.109",
- "uuid 0.8.2",
 ]
 
 [[package]]
@@ -2615,7 +2592,6 @@ dependencies = [
  "cfg-if 1.0.0",
  "ctrlc",
  "futures-util",
- "intertrait",
  "log",
  "log4rs",
  "num_cpus",
@@ -2766,7 +2742,7 @@ dependencies = [
  "tokio-stream",
  "tonic",
  "triggered",
- "uuid 1.18.1",
+ "uuid",
 ]
 
 [[package]]
@@ -3004,7 +2980,7 @@ dependencies = [
  "thiserror 1.0.64",
  "tokio",
  "tokio-stream",
- "uuid 1.18.1",
+ "uuid",
 ]
 
 [[package]]
@@ -3035,7 +3011,7 @@ dependencies = [
  "tokio-stream",
  "tonic",
  "tonic-build",
- "uuid 1.18.1",
+ "uuid",
 ]
 
 [[package]]
@@ -3119,7 +3095,7 @@ dependencies = [
  "serde_nested_with",
  "smallvec",
  "thiserror 1.0.64",
- "uuid 1.18.1",
+ "uuid",
  "wasm-bindgen",
  "workflow-core",
  "workflow-serializer",
@@ -3207,7 +3183,7 @@ dependencies = [
  "tracing-appender",
  "tracing-log",
  "tracing-subscriber",
- "uuid 1.18.1",
+ "uuid",
  "windows-sys 0.52.0",
  "yaml-rust",
 ]
@@ -3344,7 +3320,7 @@ dependencies = [
  "thiserror 1.0.64",
  "tokio",
  "triggered",
- "uuid 1.18.1",
+ "uuid",
  "wasm-bindgen",
 ]
 
@@ -3911,26 +3887,6 @@ name = "linked-hash-map"
 version = "0.5.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0717cef1bc8b636c6e1c1bbdefc09e6322da8a9321966e8928ef80d20f7f770f"
-
-[[package]]
-name = "linkme"
-version = "0.2.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "edd4ad156b9934dc21cad96fd17278a7cb6f30a5657a9d976cd7b71d6d49c02c"
-dependencies = [
- "linkme-impl",
-]
-
-[[package]]
-name = "linkme-impl"
-version = "0.2.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "73fd9dc7072de7168cbdaba9125e8f742cd3a965aa12bde994b4611a174488d8"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn 1.0.109",
-]
 
 [[package]]
 name = "linux-raw-sys"
@@ -6466,15 +6422,6 @@ name = "utf8parse"
 version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "06abde3611657adf66d383f00b093d7faecc7fa57071cce2578660c9f1010821"
-
-[[package]]
-name = "uuid"
-version = "0.8.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bc5cf98d8186244414c848017f0e2676b3fcb46807f6668a97dfe67359a3c4b7"
-dependencies = [
- "getrandom 0.2.15",
-]
 
 [[package]]
 name = "uuid"
